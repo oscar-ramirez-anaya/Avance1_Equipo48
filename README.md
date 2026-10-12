@@ -49,16 +49,9 @@ respecto al planograma, y se valoran pros, contras e implicaciones para el proye
 | Separabilidad por color | Un clasificador solo con color logra **0.97** de exactitud (azar: 0.14) |
 | Duplicados | **7.8 %** de las imágenes en pares duplicados: obliga a particionar por tienda y mueble |
 
-```mermaid
-flowchart LR
-    A[Generación del<br/>dataset sintético] --> B[Vista general<br/>y formato]
-    B --> C[Clases, densidad<br/>y distribución]
-    C --> D[Calidad de<br/>captura]
-    D --> E[Anatomía y<br/>color]
-    E --> F[Duplicados<br/>y fuga]
-    F --> G[Planograma y<br/>estado por posición]
-    G --> H[Factibilidad e<br/>implicaciones]
-```
+![Flujo](figuras/00_flujo_eda.svg)
+
+*Etapas del análisis exploratorio.*
 
 ---
 
